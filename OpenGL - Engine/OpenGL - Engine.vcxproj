@@ -156,11 +156,17 @@
   <ItemGroup>
     <ClCompile Include="..\aieGiz\Gizmos.cpp" />
     <ClCompile Include="..\deps\gl_core_4_4\gl_core_4_4.c" />
+    <ClCompile Include="baseApplication.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SolarSystemApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\aieGiz\Gizmos.h" />
+    <ClInclude Include="baseApplication.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="openGLHelper.h" />
+    <ClInclude Include="openGLMesh.h" />
+    <ClInclude Include="SolarSystemApplication.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
